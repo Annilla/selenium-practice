@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wd-update": "webdriver-manager update --proxy=http://twproxy.tw.kingston.corp:80",
+    "wd-start": "webdriver-manager start --proxy=http://twproxy.tw.kingston.corp:80"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,6 @@
   "homepage": "https://github.com/Annilla/selenium-practice#readme",
   "devDependencies": {
     "chai": "^4.1.0",
-    "mocha": "^3.4.2",
     "wdio-dot-reporter": "0.0.8",
     "wdio-mocha-framework": "^0.5.10",
     "webdriverio": "^4.8.0"

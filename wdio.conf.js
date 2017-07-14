@@ -44,7 +44,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'firefox'
+        browserName: 'internet explorer' // 'firefox'
     }],
     //
     // ===================
@@ -72,7 +72,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://twvtmobap12.tw.kingston.corp/DEV_QuotaWeb/', // 'http://localhost'
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
