@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "wd-update": "webdriver-manager update --proxy=http://twproxy.tw.kingston.corp:80",
-    "wd-start": "webdriver-manager start --proxy=http://twproxy.tw.kingston.corp:80"
+    "chimp": "chimp chimp-ci.js --mocha --watch --path=test",
+    "test": "wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
