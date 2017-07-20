@@ -8,10 +8,20 @@ exports.config = {
     // from which `wdio` was called. Notice that, if you are calling `wdio` from an
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
-    //
+
+    // define all tests
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.spec.js'
     ],
+
+    // define specific suites
+    suites: {
+        login: [
+            './test/specs/login.success.spec.js',
+            './test/specs/login.failure.spec.js'
+        ]
+    },
+
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
