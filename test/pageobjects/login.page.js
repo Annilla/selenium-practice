@@ -7,7 +7,8 @@ var LoginPage = Object.create(Page, {
       return {
         correctAccount: '01565',
         correctPassword: '1109anny',
-        correctStatus: 'Logout'
+        correctStatus: 'Logout',
+        wrongAccount: 'error'
       }
     }
   },
